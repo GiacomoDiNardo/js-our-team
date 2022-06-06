@@ -61,4 +61,6 @@ for(let i = 0; i < members.length; i++) {
                           <p>${member.ruolo}</p>
                         </div>
                       </div>`
+
+    teamContainer.innerHTML += template;
 }
